@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ios-0916-generic-extensions.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>
