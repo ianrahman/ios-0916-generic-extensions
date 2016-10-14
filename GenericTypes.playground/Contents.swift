@@ -1,6 +1,8 @@
 // generic types
 
-// a stack built
+// A Generic Stack Type
+// By Will Robinson
+// Created 10/03/16
 struct Stack<Element> {
     var items: [Element]
     
