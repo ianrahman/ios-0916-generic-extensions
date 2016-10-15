@@ -11,10 +11,7 @@ struct Stack<Element> {
     }
     
     mutating func pop() -> Element? {
-        if !items.isEmpty {
-            return items.removeLast()
-        }
-        return nil
+        !items.isEmpty ? return items.removeLast() : return nil
     }
     
     func peek() -> Element? {
